@@ -1,2 +1,2 @@
-# Elevator1
+# ElevatorProgram
 This is used to simulate an elevator
