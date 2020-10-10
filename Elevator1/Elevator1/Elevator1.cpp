@@ -1,23 +1,27 @@
 #include <iostream>
+
 using namespace std;
 
 int main()
 {
     // Integers needed
-    int numberOfFloors;
+    int *numberOfFloors;
     int endingFloor;
     bool end = true;
     int ending;
+    
+    numberOfFloors = new int[100];
 
+  
     
     // loops until user wants to exit the program
     while (end == true)
     {
         //ask how many floors the user wants to implement
         cout << "Enter the number of floors that you want: ";
-        cin >> numberOfFloors;
+        cin >> numberOfFloors[100];
 
-        for (int i = 1; i <= numberOfFloors; ++i)
+        for (int i = 1; i <= numberOfFloors[i]; ++i)
         {
             cout << i << " ";
 
@@ -28,7 +32,7 @@ int main()
         cin >> endingFloor;
 
         //if the user ask for a floor number that is not in the building it will print this
-        if (endingFloor > numberOfFloors)
+        if (endingFloor > numberOfFloors[100])
         {
             cout << "\nThe building only has " << numberOfFloors << " floors";
         }
