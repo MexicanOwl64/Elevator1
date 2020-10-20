@@ -1,0 +1,4 @@
+﻿  Elevator3.cpp
+C:\Users\gabri\source\repos\Elevator3\Elevator3\Elevator3.cpp(71,8): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\gabri\source\repos\Elevator3\Elevator3\Elevator3.cpp(72,8): warning C4553: '==': result of expression not used; did you intend '='?
+  Elevator3.vcxproj -> C:\Users\gabri\source\repos\Elevator3\Debug\Elevator3.exe
